@@ -8,7 +8,7 @@ public class Magazine implements Product, Promotional {
     private double value;
     private PublishingHouse publishingHouse;
     //My methodos
-    public boolean aplyDiscount(double percentage) {
+    public boolean applyDiscount(double percentage) {
         if(percentage > 0.1) {
             return false;
         }
