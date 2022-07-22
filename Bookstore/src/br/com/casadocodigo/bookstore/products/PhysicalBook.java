@@ -10,7 +10,7 @@ public class PhysicalBook extends Book implements Promotional {
     public double getTaxaImpressao() {
         return this.getValue() * 0.05;
     }
-    public boolean aplyDiscount(double percentage) {
+    public boolean applyDiscount(double percentage) {
         if(percentage > 0.3) {
             return false;
         }
