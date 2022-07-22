@@ -2,9 +2,9 @@ package br.com.casadocodigo.bookstore.products;
 
 @FunctionalInterface
 public interface Promotional {
-    boolean aplyDiscount(double porcentagem);
+    boolean applyDiscount(double porcentagem);
 
-    default boolean aplicaDescontoDe10Porcento() {
-        return aplyDiscount(0.1);
+    default boolean apply10PercentDiscount() {
+        return applyDiscount(0.1);
     }
 }
