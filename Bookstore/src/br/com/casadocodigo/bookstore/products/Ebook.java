@@ -10,7 +10,7 @@ public class Ebook extends Book implements Promotional {
     }
     //My methods
     @Override
-    public boolean aplyDiscount(double percentage) {
+    public boolean applyDiscount(double percentage) {
         if(percentage > 0.15) {
             return false;
         }
